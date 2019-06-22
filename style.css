@@ -1,0 +1,25 @@
+.body {
+    background: #bec6cc;
+}
+
+.waznyTekst {
+    color: rgb(177, 81, 2);
+    background: rgb(12, 64, 116);
+}
+
+.mniejWaznyTekst {
+    color: rgb(56, 90, 52);
+}
+
+.pamietniczek {
+    color: #1460AA;
+}
+
+.paragraph {
+    color: rgb(46, 100, 91);
+}
+
+.footer {
+    color: rgb(15, 87, 57);
+    background: rgb(21, 21, 21);
+}
