@@ -1,14 +1,14 @@
 .body {
-    background: #8fd362;
+    background: #dfe9e7;
 }
 
 .waznyTekst {
-    color: rgb(177, 81, 2);
-    background: rgb(12, 64, 116);
+    color: rgb(2, 19, 177);
+    background: rgba(9, 73, 136, 0.5);
 }
 
 .mniejWaznyTekst {
-    color: rgb(56, 90, 52);
+    color: rgb(3, 107, 107);
 }
 
 .pamietniczek {
@@ -20,6 +20,10 @@
 }
 
 .footer {
-    color: rgb(15, 87, 57);
+    color: rgb(9, 230, 238);
     background: rgb(21, 21, 21);
+}
+
+.link {
+    color: rgb(105, 105, 226);
 }
