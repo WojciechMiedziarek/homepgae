@@ -2,17 +2,22 @@
     background: #dfe9e7;
 }
 
-.waznyTekst {
+.header__title {
     color: rgb(2, 19, 177);
     background: rgba(9, 73, 136, 0.5);
 }
 
-.mniejWaznyTekst {
-    color: rgb(3, 107, 107);
+.article{
+    background: rgb(114, 131, 139);
+}
+
+.article__title {
+    color: rgb(3, 107, 26);
 }
 
 .pamietniczek {
     color: #1460AA;
+    
 }
 
 .paragraph {
@@ -24,6 +29,47 @@
     background: rgb(69, 70, 78);
 }
 
-.link {
-    color: rgb(105, 105, 226);
+.navigation__link {
+    color: rgb(36, 204, 31);
+}
+
+.about {
+  width: 100%;
+  max-width: 400px;  
+  margin: 40px auto;
+}
+
+.main {
+    width: 100%;
+    max-width: 400px;  
+    margin: 40px auto;
+}
+
+.box {
+    width: 100%;
+    height: 100px;
+    background: lightblue;
+    padding: 10%;
+    border: 2px solid red;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+.traktor {
+    width: 200px;
+    height:200px;
+    padding: 0 0 0 25%;
+
+}
+
+.image__tomato {
+
+    width:300px;
+    height:300px;
+    padding: 10px 0 0 30px;
+}
+
+.section{
+background: rgb(148, 184, 181);
+
 }
