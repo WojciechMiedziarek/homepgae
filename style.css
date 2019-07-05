@@ -11,15 +11,8 @@ body {
     background: rgb(114, 131, 139);
 }
 
-.farba__title {
-    color: rgb(3, 107, 26);
-}
 
-.farba__paragraph {
-    background: rgb(46, 100, 91);
-}
-
-.article__footer {
+.footer {
     color: rgb(9, 230, 238);
     background: rgb(69, 70, 78);
 }
@@ -50,65 +43,26 @@ body {
     box-sizing: border-box;
 }
 
-
-.traktor{
-    background: pink
-}
-
-.traktor__title{
+.article__title{
     color: rgb(3, 107, 26);
 }
 
-.traktor__paragraph{
-    background: #1460AA
+.title__paragraph{
+    background: #1460AA;
 }
 
-.traktor__image {
+.article__image {
     width: 300px;
     height: 300px;
     padding: 0 0 0 50px;
 }
 
-.tomato{
-    background: rgb(178, 221, 167);
-}
-
-.tomato__title{
-    color: rgb(3, 107, 26);
-}
-
-.tomato__paragraph{
+.section {
 background: rgb(114, 131, 139);
 }
 
-.tomato__image {
-    width: 300px;
-    height: 300px;
-    padding: 10px 0 0 50px;
-}
-
-.section {
-    background: rgb(184, 148, 175);
-}
-
-.pamietniczek{
+.diary{
 
     font-size: 130%;
     color: #1460AA;
-}
-.farba__list{
-    background: rgb(17, 174, 185);
-}
-
-.image__farba{
-height: 300px;
-width: 400px;
-padding: 10px 0 0 0;
-
-}
-
-.article__image--corsan{
-    height: 300px;
-    width: 300px;
-    margin: 50px;
 }
