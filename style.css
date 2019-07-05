@@ -2,7 +2,7 @@ body {
     background: #dfe9e7;
 }
 
-.header__title {
+.main__title {
     color: rgb(2, 19, 177);
     background: rgba(9, 73, 136, 0.5);
 }
@@ -11,16 +11,12 @@ body {
     background: rgb(114, 131, 139);
 }
 
-.article__title {
+.farba__title {
     color: rgb(3, 107, 26);
 }
 
-.article__paragraph {
+.farba__paragraph {
     background: rgb(46, 100, 91);
-}
-
-.article__paragraph--farba{
-    margin: 0%
 }
 
 .article__footer {
@@ -54,20 +50,45 @@ body {
     box-sizing: border-box;
 }
 
-.image__traktor {
+
+.traktor{
+    background: pink
+}
+
+.traktor__title{
+    color: rgb(3, 107, 26);
+}
+
+.traktor__paragraph{
+    background: #1460AA
+}
+
+.traktor__image {
     width: 300px;
     height: 300px;
     padding: 0 0 0 50px;
 }
 
-.image__tomato {
+.tomato{
+    background: rgb(178, 221, 167);
+}
+
+.tomato__title{
+    color: rgb(3, 107, 26);
+}
+
+.tomato__paragraph{
+background: rgb(114, 131, 139);
+}
+
+.tomato__image {
     width: 300px;
     height: 300px;
     padding: 10px 0 0 50px;
 }
 
 .section {
-    background: rgb(148, 184, 181);
+    background: rgb(184, 148, 175);
 }
 
 .pamietniczek{
@@ -75,7 +96,7 @@ body {
     font-size: 130%;
     color: #1460AA;
 }
-.list{
+.farba__list{
     background: rgb(17, 174, 185);
 }
 

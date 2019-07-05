@@ -10,19 +10,24 @@
 </head>
 
 <body class="body">
-    <header>
-        <a class="navigation__link" href="index.html">Strona główna</a>
-        <a class="navigation__link" href="podstrona.html">podstrona</a>
-        <a class="navigation__link" href="dzien100.html">Dzień 100</a>
-        <a class="navigation__link" href="dzien200.html">Dzień 200</a>
-        <a class="navigation__link" href="dzien300.html">Dzień 300</a>
-    </header>
-
+        <header class="header">
+                <nav class="navigation">
+                  <ul class="navigation__list">
+                    <li class="navigation__item"><a class="navigation__link" href="index.html">Strona główna</a></li>
+                    <li class="navigation__item"><a class="navigation__link" href="podstrona.html">podstrona</a></li>
+                    <li class="navigation__item"><a class="navigation__link" href="dzien100.html">Dzień 100</a></li>
+                    <li class="navigation__item"><a class="navigation__link" href="dzien200.html">Dzień 200</a></li>
+                    <li class="navigation__item"><a class="navigation__link" href="dzien300.html">Dzień 300</a></li>
+                  </ul>
+                </nav>
+              </header>
+      
     <main class="main">
-        <h1 class="header__title">Dzień nr 100</h1>
-        <h2 class="article__title">Opowieść o farbie</h2>
-        <article class="article">
-          <p class="article__paragraph--farba"> <strong>Farba</strong>– substancja powłokotwórcza służąca do ochronnego lub dekoracyjnego pokrywania
+        <h1 class="main__title">Dzień nr 100</h1>
+        
+    <article class="farba">
+        <h2 class="farba__title">Opowieść o farbie</h2>
+          <p class="farba__paragraph"> <strong>Farba</strong>– substancja powłokotwórcza służąca do ochronnego lub dekoracyjnego pokrywania
             powierzchni
             dowolnych przedmiotów. Może zalegać na ich powierzchni lub nieznacznie wnikać w głąb. Składa się z
             substancji barwiących – najczęściej w postaci pigmentów oraz substancji dodatkowych: spoiw, wypełniaczy,
@@ -40,7 +45,7 @@
             substancji czynnej – np. zabezpieczającej lub leczniczej.
 
             Ze względu na liczbę powłok farby, dzieli się je kolejno na:
-            <ul class="list">
+            <ul class="farba__list">
                 <li>gruntujące</li>
                 <li>podkładowe</li>
                 <li>powierzchniowe</li>
@@ -48,7 +53,7 @@
         </p> 
         </article>
 
-        <img src="farba.jpg" class="image__farba" alt="zdjęcie farby w puszce">
+        <img src="farba.jpg" class="farba__image" alt="zdjęcie farby w puszce">
 
     </main>
     <footer class="article__footer">
