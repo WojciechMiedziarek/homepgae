@@ -8,8 +8,8 @@ console.log(hobby);
 
 
 console.log(`Nazywam się ${name} i mam ${age} lat. Moje hobby to ${hobby}`);
-const header__title = document.querySelector('.header__title--js');
-console.log(header__title);
+const diary = document.querySelector('.article__paragraph--js');
+console.log(diary.innerHTML);
 
 const paragraphs = document.querySelectorAll('p');
 console.log(paragraphs);
